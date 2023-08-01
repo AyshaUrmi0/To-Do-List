@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  </head>
-  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
     <h1 class="text-center mt-5">To Do List</h1>
     <div class="text-center container w-100 m-auto mt-5">
-      <div class="input-group mt-5">
-        <input id="input-value" class="form-control" aria-label="With textarea"></input>
-        <button id="input-btn" class="btn btn-outline-warning ms-1">Add Items</button>
+        <div class="input-group mt-5">
+            <input id="input-value" class="form-control" aria-label="With textarea"></input>
+            <button id="input-btn" class="btn btn-outline-warning ms-1">Add Items</button>
 
-      </div>
-      <div class="mt-5">
-        <table id="table" class="table">
-          <thead>
-            <tr>
-              <th scope="col">Number</th>
-              <th scope="col">Description</th>
-              <th scope="col">Action</th>
-            </tr>
-          </thead>
-          <tbody id="content-container">
-            <!-- <tr>
+        </div>
+        <div class="mt-5">
+            <table id="table" class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Number</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="content-container">
+                    <!-- <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
                 <td>Otto</td>
               </tr> -->
-          </tbody>
-        </table>
-        <button id="clear-btn" class="btn btn-outline-info px-4">Clear All</button>
-      </div>
+                </tbody>
+            </table>
+            <button id="clear-btn" class="btn btn-outline-info px-4">Clear All</button>
+        </div>
     </div>
-    
-    <script src="./todo.js"></script>
-  </body>
+
+    <script src="js/todo.js"></script>
+
+</body>
+
 </html>
